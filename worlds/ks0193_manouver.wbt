@@ -1,20 +1,28 @@
-#VRML_SIM R2022a utf8
+#VRML_SIM R2022b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/drinks/protos/WaterBottle.proto"
+
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.0031744167419032517 -0.9998674177038511 -0.015970913955717207 5.889835326733651
-  position -1.9552256791270257 0.4105227495006126 0.8405611158191535
+  orientation 0.03834213417025174 -0.9141787118415057 -0.40349369705495486 6.075963206674819
+  position -3.2927694544181114 0.19422578354704334 0.7410262311272355
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
 }
 Robot {
-  translation 0 0.86 0.05
-  rotation 1 0 0 2.38716e-06
+  translation -2.0213196530804775e-06 0.8583084226034663 0.05204927333092949
+  rotation 0.9976771742950994 -0.06797507374835557 -0.0044322950546395136 0.0005640895341170349
   children [
     HingeJoint {
       jointParameters HingeJointParameters {
+        position 0.04988357045874077
         anchor -0.10525 0 -0.019
       }
       device [
@@ -27,8 +35,8 @@ Robot {
         }
       ]
       endPoint Solid {
-        translation -0.10525003507216833 4.424891976396885e-06 -0.018973322765147294
-        rotation 0.05304655173723362 0.9971509003258203 0.053629705650835004 1.5761046792699216
+        translation -0.10525003507216833 3.0891838415222375e-06 -0.01897313531180932
+        rotation 0.07771124346686101 0.9938921415113472 0.07835415547896828 1.579366678710307
         children [
           Shape {
             appearance PBRAppearance {
@@ -77,10 +85,13 @@ Robot {
           density -1
           mass 0.025
         }
+        linearVelocity 1.4464343983035037e-08 -0.0011429338832603497 4.602775106840044e-08
+        angularVelocity 0.03427483946810439 4.337245689393684e-07 -1.727997484647408e-06
       }
     }
     HingeJoint {
       jointParameters HingeJointParameters {
+        position 0.04988362177325072
         anchor 0.10525 0 -0.019
       }
       device [
@@ -93,8 +104,8 @@ Robot {
         }
       ]
       endPoint Solid {
-        translation 0.10525008492314628 4.912163607296451e-06 -0.018973936978007002
-        rotation 0.05304644463126914 0.9971509009999698 0.05362979905733694 1.576104772353934
+        translation 0.10525008492314628 3.6064744187364967e-06 -0.018973724463678558
+        rotation 0.07771115976612235 0.9938921386893336 0.07835427428894161 1.579366770391142
         children [
           Shape {
             appearance PBRAppearance {
@@ -143,6 +154,8 @@ Robot {
           density -1
           mass 0.025
         }
+        linearVelocity 1.4465132575811987e-08 -0.0011431870540519853 -4.166921925770412e-08
+        angularVelocity 0.03427487308539197 4.3372488839665885e-07 -1.7280250004285062e-06
       }
     }
     Solid {
@@ -747,6 +760,8 @@ Robot {
     ]
   }
   controller "ks0193_manouver"
+  linearVelocity 2.132931146735042e-08 -0.0011298529344873098 -1.0589435982226463e-07
+  angularVelocity -0.0009257238244218881 5.197595360118613e-07 -3.0593618269128263e-06
 }
 RectangleArena {
   translation 0 -0.5 0
@@ -765,7 +780,8 @@ RectangleArena {
   wallThickness 0.025
 }
 Solid {
-  translation 0 0.96 0.04
+  translation -1.3879111872245623e-09 0.9599517041621811 0.039821095090783076
+  rotation 0.9999999997497361 -2.232360593320766e-05 -1.4779216046934575e-06 0.001208659156274298
   children [
     Shape {
       appearance Appearance {
@@ -795,7 +811,10 @@ Solid {
     density -1
     mass 1
   }
+  linearVelocity 8.424343494038452e-09 7.533935533718068e-09 -4.196950930577004e-07
+  angularVelocity -2.6911431588922137e-07 2.1085640768239027e-07 8.785309464947068e-11
 }
 WaterBottle {
-  translation 0 -1.02 0
+  translation 2.826811936063968e-18 -1.02 -0.0022473477070812653
+  rotation 0.7996135042466223 -0.4965142315981295 -0.33777486828797115 1.0885903337022497e-16
 }

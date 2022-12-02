@@ -2,7 +2,7 @@
 # UTS Robotika
 webots-szte-robocup-2023
 
-![ks0193_weight](https://user-images.githubusercontent.com/73738851/172390181-c19b6f8b-129d-44cb-90cb-f5082d261e30.gif)
+![ks0193_weight](https://github.com/pusakamanggala/webots-szte-robocup-2023/blob/main/Documentations/Screenshot/ks0193_weight.gif)
 
 
 
